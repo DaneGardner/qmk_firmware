@@ -1,6 +1,7 @@
 # Dane's Layout
 
-```
+To build for `planck` keyboard:
+```bash
 # clean and build
 make clean && make keyboard=planck keymap=dane
 
@@ -27,3 +28,10 @@ Accessed by holding down both the `raise` and `lower` keys simultaneously. Layer
 * volume controls
 * sleep & power
 * custom macros
+
+## Preonic
+This keyboard only adds the number keys to a new top row.  All layers behave as they would on a plain Planck.
+
+```bash
+make clean && make keyboard=planck keymap=dane
+```

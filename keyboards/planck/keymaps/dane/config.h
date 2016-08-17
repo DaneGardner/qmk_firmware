@@ -23,8 +23,6 @@
 #define PRODUCT Danes Preonic Keyboard
 #endif
 
-#pragma message(STRING(PRODUCT))
-
 #undef PRODUCT_ID
 #define PRODUCT_ID 0x5050
 
